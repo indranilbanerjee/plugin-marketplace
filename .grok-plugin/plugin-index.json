@@ -920,6 +920,194 @@
         ]
       }
     },
+    "socialforge": {
+      "sha": "b6ff2d88556a2248b6581d1f1f0c7923bb7bf92a",
+      "version": "1.27.1",
+      "components": {
+        "agents": [
+          {
+            "name": "carousel-builder",
+            "description": "Renders multi-slide carousels from HTML/CSS templates using Playwright. Handles slide content injection, brand styling,…"
+          },
+          {
+            "name": "compliance-checker",
+            "description": "Enforces brand compliance rules — banned phrases, required disclaimers, image rules, data claim verification, and platf…"
+          },
+          {
+            "name": "copy-adapter",
+            "description": "Adapts social media copy per platform — character limits, hashtags, CTAs, tone shifts, and bilingual formatting. Handle…"
+          },
+          {
+            "name": "image-compositor",
+            "description": "Produces images and videos for social posts with human-in-the-loop approval at every creative stage."
+          },
+          {
+            "name": "quality-reviewer",
+            "description": "Reviews generated creative for brand consistency, visual quality, copy accuracy, and platform compliance before approva…"
+          }
+        ],
+        "commands": [
+          {
+            "name": "brand-setup",
+            "description": "Configure a new brand profile with colors, fonts, logo, visual style, platforms, and compliance rules"
+          },
+          {
+            "name": "check-approvals",
+            "description": "Check pending approval status and send reminders if overdue"
+          },
+          {
+            "name": "client-review",
+            "description": "Send approved posts to client for review via Slack or email"
+          },
+          {
+            "name": "cost-report",
+            "description": "Show API cost breakdown for the current month's production"
+          },
+          {
+            "name": "edit-image",
+            "description": "Edit a generated image — adjust background, lighting, colors, or composition"
+          },
+          {
+            "name": "edit-post",
+            "description": "Edit an existing post's copy, visual direction, or metadata"
+          },
+          {
+            "name": "finalize",
+            "description": "Finalize the month and package all approved content for delivery"
+          },
+          {
+            "name": "generate-all",
+            "description": "Generate creative assets for all posts in the current month's calendar"
+          },
+          {
+            "name": "generate-post",
+            "description": "Generate creative for a single post by ID"
+          },
+          {
+            "name": "new-month",
+            "description": "Start a new month's social media calendar production for a brand"
+          },
+          {
+            "name": "preview-batch",
+            "description": "Generate preview mockups for all posts in batch"
+          },
+          {
+            "name": "reactive-post",
+            "description": "Create a reactive/trending post outside the planned calendar"
+          },
+          {
+            "name": "review",
+            "description": "Open the review gallery for the current month's production"
+          },
+          {
+            "name": "revision",
+            "description": "Apply revision feedback to a post and regenerate affected elements"
+          },
+          {
+            "name": "status",
+            "description": "Show current production status for the active brand and month"
+          },
+          {
+            "name": "swap-asset",
+            "description": "Swap the brand asset used for a post's image composition"
+          },
+          {
+            "name": "switch-brand",
+            "description": "Switch the active brand context"
+          },
+          {
+            "name": "sync-calendar",
+            "description": "Re-sync the calendar from its source (Notion, Drive, or file)"
+          }
+        ],
+        "skills": [
+          {
+            "name": "adapt-copy",
+            "description": "Adapt post copy for every target platform — character limits, hashtag counts and placement, tone, compliance, and the r…"
+          },
+          {
+            "name": "assemble-document",
+            "description": "Assemble the final month-end delivery manifest — every approved post with its copy, creative files, platform variants,…"
+          },
+          {
+            "name": "brand-manager",
+            "description": "Set up and manage brand profiles — colors, fonts, logo, voice, pillars, platforms, hashtags, compliance rules, cta_keyw…"
+          },
+          {
+            "name": "build-review-gallery",
+            "description": "Build the interactive HTML review gallery showing every generated post — image, copy, platform, status — for team or cl…"
+          },
+          {
+            "name": "c2pa-sign",
+            "description": "Embed C2PA provenance manifests in AI-generated assets — the machine-readable AI disclosure EU AI Act Article 50 expect…"
+          },
+          {
+            "name": "compose-creative",
+            "description": "Core creative engine — turns a calendar post into finished images or video using 4 modes (anchor-compose, enhance-exten…"
+          },
+          {
+            "name": "create-previews",
+            "description": "Generate platform-accurate mockup previews — the post as it will actually render on LinkedIn, Instagram, X, TikTok — be…"
+          },
+          {
+            "name": "finalize-month",
+            "description": "Package all approved content into the final delivery folder — files renamed per convention, per-platform copy files, ma…"
+          },
+          {
+            "name": "full-pipeline",
+            "description": "Run the complete production pipeline end to end — parse the calendar, match assets, compose creative, adapt copy, build…"
+          },
+          {
+            "name": "generate-video",
+            "description": "Generate short-form video via a 5-stage human-in-the-loop pipeline — concept, first frame, last frame, motion, final re…"
+          },
+          {
+            "name": "ideate-month",
+            "description": "Plan next month's content calendar from a theme, raw signals, and last month's results — before any calendar exists. Tr…"
+          },
+          {
+            "name": "index-assets",
+            "description": "Index the brand photo and asset library with AI vision — each asset described, tagged, and made searchable so match-ass…"
+          },
+          {
+            "name": "ingest-performance",
+            "description": "Feed last month's real numbers into next month's plan: ingest a platform analytics export (CSV from Instagram Insights,…"
+          },
+          {
+            "name": "manage-reviews",
+            "description": "Run the approval workflows — internal review, client review, CEO sign-off, revision requests, reminders — that gate eve…"
+          },
+          {
+            "name": "match-assets",
+            "description": "Match indexed brand assets to calendar posts and assign each post its creative mode (anchor-compose, enhance-extend, st…"
+          },
+          {
+            "name": "model-check",
+            "description": "Find the model that is currently best for a capability by reading the provider live catalogue, and record it with its s…"
+          },
+          {
+            "name": "parse-calendar",
+            "description": "Parse a monthly content calendar from DOCX, XLSX, Notion, or pasted text into structured calendar-data.json — the sourc…"
+          },
+          {
+            "name": "price-check",
+            "description": "Look up what a generation actually costs right now from the provider live pricing page, record it with its source, and…"
+          },
+          {
+            "name": "render-carousels",
+            "description": "Render multi-slide carousels from HTML templates via Playwright — slide content injected, brand styling applied, assemb…"
+          },
+          {
+            "name": "research-month",
+            "description": "Turn evidence the user supplies into a what's-working brief before planning a month: outlier posts versus the account's…"
+          },
+          {
+            "name": "setup",
+            "description": "One-time setup for image and video generation APIs — Vertex AI, WaveSpeed, and Higgsfield credentials stored persistent…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "27db051dba7cee2e13d2dbf6d65939cf412f5b3c",
       "version": "0.9.6",
