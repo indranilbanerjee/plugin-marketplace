@@ -921,8 +921,8 @@
       }
     },
     "socialforge": {
-      "sha": "b6ff2d88556a2248b6581d1f1f0c7923bb7bf92a",
-      "version": "1.27.1",
+      "sha": "2315546f17e82e6f0db1a67e71c57180fa17247e",
+      "version": "1.27.2",
       "components": {
         "agents": [
           {
