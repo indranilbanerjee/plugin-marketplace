@@ -395,6 +395,18 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "contentforge",
+      "description": "Open-source long-form content pipeline: research, fact-check, draft, humanize, SEO and review in ten gated phases, delivered as a real .docx, with a run auditor that re-derives every gate and a published quality contract. 22 skills, 13 agents; no hooks, and no MCP server connects by default.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/indranilbanerjee/contentforge.git",
+        "sha": "96c39ff0439c9d2a6ac39439fd2565c2e7940ede"
+      },
+      "homepage": "https://github.com/indranilbanerjee/contentforge",
+      "keywords": ["contentforge", "content forge"]
     }
   ]
 }
