@@ -235,6 +235,334 @@
         ]
       }
     },
+    "digital-marketing-pro": {
+      "sha": "4c833e334b96323dafa35e2c818f2ef2df714f71",
+      "version": "3.33.2",
+      "components": {
+        "agents": [
+          {
+            "name": "agency-operations",
+            "description": "Invoke when the user needs to manage multiple client brands, view portfolio-level dashboards, generate client reports,…"
+          },
+          {
+            "name": "analytics-analyst",
+            "description": "Invoke when the user needs help with marketing measurement, KPI definition, dashboard design, attribution reporting, pe…"
+          },
+          {
+            "name": "brand-guardian",
+            "description": "Invoke when marketing content needs quality control review — brand voice consistency checks, regulatory compliance veri…"
+          },
+          {
+            "name": "competitive-intel",
+            "description": "Invoke for any competitor work — one-off competitive teardowns (content, SEO, paid ads, social, AI visibility, pricing,…"
+          },
+          {
+            "name": "content-creator",
+            "description": "Invoke when the user needs any form of marketing content created or refined — blog posts, ad copy, email campaigns, soc…"
+          },
+          {
+            "name": "crm-manager",
+            "description": "Invoke when the user needs to manage CRM operations — creating contacts, importing leads, updating deals, syncing campa…"
+          },
+          {
+            "name": "cro-specialist",
+            "description": "Invoke when the user needs help with conversion rate optimization — landing page audits, A/B test design, form optimiza…"
+          },
+          {
+            "name": "email-specialist",
+            "description": "Invoke when the user needs help with email marketing — campaign strategy, automation flows, deliverability optimization…"
+          },
+          {
+            "name": "execution-coordinator",
+            "description": "Invoke when the user wants to publish, send, launch, schedule, or execute any marketing action on an external platform.…"
+          },
+          {
+            "name": "growth-engineer",
+            "description": "Invoke when the user needs help with product-led growth strategy, referral programs, viral loop design, launch strategy…"
+          },
+          {
+            "name": "influencer-manager",
+            "description": "Invoke when the user needs help with influencer marketing — creator discovery, campaign briefs, FTC compliance verifica…"
+          },
+          {
+            "name": "intelligence-curator",
+            "description": "Use when the task requires interpreting, synthesizing, or distributing marketing learnings across agents — compound int…"
+          },
+          {
+            "name": "journey-orchestrator",
+            "description": "Use when the task requires designing cross-channel customer journeys, mapping touchpoint sequences, planning journey st…"
+          },
+          {
+            "name": "localization-specialist",
+            "description": "Invoke when the user needs to translate, transcreate, or culturally adapt marketing content across languages and market…"
+          },
+          {
+            "name": "market-intelligence",
+            "description": "Use when the task requires monitoring macro signals — economic indicators, cultural trends, industry-wide events, platf…"
+          },
+          {
+            "name": "marketing-scientist",
+            "description": "Use when the task requires marketing science — causal inference, Marketing Mix Modeling, incrementality testing, revenu…"
+          },
+          {
+            "name": "marketing-strategist",
+            "description": "Invoke when the user needs high-level marketing strategy, campaign planning, budget allocation, go-to-market planning,…"
+          },
+          {
+            "name": "media-buyer",
+            "description": "Invoke when the user needs help with paid advertising — campaign setup, audience targeting, bid strategies, ad creative…"
+          },
+          {
+            "name": "memory-manager",
+            "description": "Invoke for storage-plumbing operations on the memory system — dedup-and-store a payload, index it, run a metadata/index…"
+          },
+          {
+            "name": "performance-monitor-agent",
+            "description": "Invoke when the user wants to check campaign performance, detect anomalies, track budget pacing, monitor deliverability…"
+          },
+          {
+            "name": "pr-outreach",
+            "description": "Invoke when the user needs help with digital PR, media outreach, press release writing, journalist pitching, responses…"
+          },
+          {
+            "name": "quality-assurance",
+            "description": "Invoke when marketing content needs its authoritative quality evaluation before publication — running the full multi-di…"
+          },
+          {
+            "name": "seo-specialist",
+            "description": "Invoke when the user needs help with search engine optimization, AI engine optimization (AEO), generative engine optimi…"
+          },
+          {
+            "name": "social-media-manager",
+            "description": "Invoke when the user needs help with social media management — community management, content calendar planning, algorit…"
+          }
+        ],
+        "commands": [
+          {
+            "name": "doctor",
+            "description": "Per-action readiness diagnostic. Shows which campaign-audit and launch-campaign actions are live (manifest-ready) vs bl…"
+          },
+          {
+            "name": "engagement",
+            "description": "Run a marketing engagement using the 12-Part methodology. Subcommands: start, next, status, validate, re-run-decision,…"
+          },
+          {
+            "name": "execute-action",
+            "description": "Actually fire a campaign-audit / launch-campaign action against its real API (vs returning a manifest). Reads credentia…"
+          },
+          {
+            "name": "output-folder",
+            "description": "Print + open the user-visible DMP output folder for a brand (~/Documents/DigitalMarketingPro/{brand}/). Direct answer t…"
+          },
+          {
+            "name": "resume",
+            "description": "Resume a long-running DMP workflow (engagement / campaign-plan / content-engine / seo-audit / competitor-analysis / cam…"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ab-test-plan",
+            "description": "Design a statistically rigorous A/B or multivariate test plan — If/Then/Because hypothesis, control and variant specs,…"
+          },
+          {
+            "name": "ad-creative",
+            "description": "Generate 3-5 ad copy variations per platform — headlines, descriptions, and CTAs formatted to Google, Meta, LinkedIn, T…"
+          },
+          {
+            "name": "add-integration",
+            "description": "Walk through adding a custom MCP server integration to the plugin — searches npm for an existing MCP package (or scaffo…"
+          },
+          {
+            "name": "aeo-audit",
+            "description": "Audit how a brand appears across the 6 canonical AI answer surfaces — ChatGPT, Perplexity, Google AI Mode, AI Overviews…"
+          },
+          {
+            "name": "aeo-geo",
+            "description": "Strategy module for Answer Engine / Generative Engine Optimization — audits AI visibility, restructures content for cit…"
+          },
+          {
+            "name": "agency-dashboard",
+            "description": "Generate a portfolio-level dashboard across ALL client brands — per-client RAG health scores, campaign activity, budget…"
+          },
+          {
+            "name": "agent-readiness-audit",
+            "description": "Audit whether AI agents and AI crawlers can actually use a site — robots.txt rules per AI crawler token (OpenAI, Anthro…"
+          },
+          {
+            "name": "analytics-insights",
+            "description": "Marketing measurement module — builds KPI trees per business model, reporting templates (weekly, monthly, QBR, campaign…"
+          },
+          {
+            "name": "anomaly-scan",
+            "description": "Scan all connected marketing platforms for statistically significant deviations from stored baselines — traffic drops,…"
+          },
+          {
+            "name": "attribution-model",
+            "description": "Design a multi-touch attribution strategy — recommends the best-fit model for the business's sales cycle and data matur…"
+          },
+          {
+            "name": "attribution-report",
+            "description": "Run multi-touch attribution analysis on real conversion-path data — applies two or more models side-by-side (first-touc…"
+          },
+          {
+            "name": "audience-intelligence",
+            "description": "Audience research module — builds six-dimension buyer personas (demographic, psychographic, behavioral, need-state, inf…"
+          },
+          {
+            "name": "audience-profile",
+            "description": "Build a named, narrative buyer persona document — demographic snapshot, psychographic drivers, jobs-to-be-done, day-in-…"
+          },
+          {
+            "name": "autopilot-status",
+            "description": "Campaign autopilot operations dashboard — 0-100 health scores for all active campaigns, a chronological log of auto-cor…"
+          },
+          {
+            "name": "backlink-gap",
+            "description": "Find referring domains that link to your competitors but not to you, ranked by an outreach-priority score (0.40 DR + 0.…"
+          },
+          {
+            "name": "brand-setup",
+            "description": "Create or update the brand profile every other skill reads — a quick 5-question or full 17-question interactive setup c…"
+          },
+          {
+            "name": "budget-optimizer",
+            "description": "Reallocate marketing spend across channels using performance data and diminishing-returns modeling — produces a current…"
+          },
+          {
+            "name": "budget-tracker",
+            "description": "Track advertising spend pacing in real time across connected ad platforms (Google Ads, Meta, LinkedIn, TikTok) — produc…"
+          },
+          {
+            "name": "c2pa-metadata",
+            "description": "Embed a C2PA provenance manifest into an AI-generated marketing asset (PNG, JPG, WebP, GIF, TIFF, MP4, MOV, WebM, MP3,…"
+          },
+          {
+            "name": "campaign-audit",
+            "description": "Inventory and score everything currently running for a brand across paid search, paid social, email, organic, SEO, AEO/…"
+          },
+          {
+            "name": "campaign-orchestrator",
+            "description": "Full campaign-lifecycle module — produces campaign briefs, budget allocations via three models (70/20/10, efficiency-ra…"
+          },
+          {
+            "name": "campaign-plan",
+            "description": "Generate a complete multi-channel campaign plan document — SMART objectives, audience segments with targeting criteria,…"
+          },
+          {
+            "name": "campaign-status",
+            "description": "Unified status dashboard for every tracked campaign across connected platforms — produces a summary table with health i…"
+          },
+          {
+            "name": "case-study-plan",
+            "description": "Build a complete case-study creation blueprint — a Challenge-Solution-Results narrative framework, 15-20 client intervi…"
+          },
+          {
+            "name": "check",
+            "description": "Run the unified pre-publish quality gate on marketing content — wraps scripts/eval-runner.py to score hallucination ris…"
+          },
+          {
+            "name": "churn-risk",
+            "description": "Score customer segments for churn risk from behavioral signals — email engagement decline, purchase recency, usage drop…"
+          },
+          {
+            "name": "client-onboarding",
+            "description": "Generate a complete onboarding package for a new marketing client — kickoff meeting agenda, 20-30 question discovery qu…"
+          },
+          {
+            "name": "client-proposal",
+            "description": "Draft a professional agency proposal or pitch document for a prospective client — executive summary, situation analysis…"
+          },
+          {
+            "name": "client-report",
+            "description": "Generate a white-labeled client report in agency voice — weekly pulse, monthly review, or QBR — with a KPI scorecard vs…"
+          },
+          {
+            "name": "client-validation-document",
+            "description": "Produce the Part 5 Client Validation Document — the one true stop of the 12-Part engagement where unbiased v1 findings…"
+          },
+          {
+            "name": "cohort-analysis",
+            "description": "Segment customers into cohorts — by acquisition period, channel, first behavior, or revenue tier — and produce a color-…"
+          },
+          {
+            "name": "competitor-alerts",
+            "description": "Configure a tiered competitor alert system — per-competitor trigger thresholds across content, pricing, ads, social, ra…"
+          },
+          {
+            "name": "competitor-analysis",
+            "description": "Run a multi-dimensional competitive teardown of 2-5 competitors — content strategy, SEO, paid ads, social, AI answer-en…"
+          },
+          {
+            "name": "competitor-monitor",
+            "description": "Set up ongoing competitor monitoring — captures per-competitor baselines across content, pricing, ads, social, SEO, and…"
+          },
+          {
+            "name": "competitor-pages",
+            "description": "Build competitor comparison and alternatives pages — X-vs-Y head-to-heads, alternatives-to-X lists, category roundups,…"
+          },
+          {
+            "name": "connect",
+            "description": "Guide the connection of a known MCP integration to the plugin — looks up the connector registry via connector-status.py…"
+          },
+          {
+            "name": "content-brief",
+            "description": "Create a production-ready content brief a writer can execute without extra context — keyword map (primary, secondary, r…"
+          },
+          {
+            "name": "content-calendar",
+            "description": "Generate a structured content calendar for a month, quarter, or custom range — topics mapped to platforms and publish d…"
+          },
+          {
+            "name": "content-decay-scan",
+            "description": "Scan the content library for decay — declining traffic, falling keyword positions, stale content, broken links, lost AI…"
+          },
+          {
+            "name": "content-engine",
+            "description": "Draft marketing content in brand voice — blog posts, ad copy, email sequences, social posts, landing pages, and brand-v…"
+          },
+          {
+            "name": "content-repurpose",
+            "description": "Turn one piece of content into a multi-channel repurposing plan — a derivative matrix targeting 10+ formats, full platf…"
+          },
+          {
+            "name": "context-engine",
+            "description": "Load and manage the shared marketing context other skills build on — the active brand profile (voice, audiences, compet…"
+          },
+          {
+            "name": "continuous-improvement-loop",
+            "description": "Run Part 12 of the engagement methodology — the continuous improvement loop that aggregates quarterly-review, customer-…"
+          },
+          {
+            "name": "counter-narrative",
+            "description": "Build a counter-narrative playbook responding to a competitor's positioning move — rebrand, category claim, aggressive…"
+          },
+          {
+            "name": "cowork-setup",
+            "description": "One-shot setup that wires Digital Marketing Pro for team use in Anthropic Cowork — verifies the sandbox via plugin-meta…"
+          },
+          {
+            "name": "creative-health",
+            "description": "Assess ad creative fatigue across active campaigns — scores each creative 0-100 via creative-fatigue-predictor.py (CTR,…"
+          },
+          {
+            "name": "creative-testing-framework",
+            "description": "Design a structured ad creative testing playbook — prioritized variable matrix, isolated test grid, script-computed sam…"
+          },
+          {
+            "name": "credential-switch",
+            "description": "Switch the active credential profile to a different client brand, validating each configured platform's API keys, env v…"
+          },
+          {
+            "name": "crisis-response",
+            "description": "Assess a PR crisis and deliver a structured response plan — severity classification (Level 1-3), a ready-to-publish hol…"
+          },
+          {
+            "name": "crm-sync",
+            "description": "Sync marketing data to and from Salesforce, HubSpot, Zoho, or Pipedrive — contacts, deals, and campaign links with fiel…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",

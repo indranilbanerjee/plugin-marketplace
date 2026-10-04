@@ -395,6 +395,18 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "digital-marketing-pro",
+      "description": "Open-source marketing plugin for agencies and in-house teams: 164 skills and 24 agents for strategy, SEO, AEO and GEO, paid media, content, CRM and analytics. Every write to a live platform runs behind a typed approval gate; no hooks, and no MCP server connects by default.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/indranilbanerjee/digital-marketing-pro.git",
+        "sha": "4c833e334b96323dafa35e2c818f2ef2df714f71"
+      },
+      "homepage": "https://github.com/indranilbanerjee/digital-marketing-pro",
+      "keywords": ["digital marketing pro", "digital-marketing-pro"]
     }
   ]
 }
