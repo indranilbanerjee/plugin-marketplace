@@ -415,7 +415,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/indranilbanerjee/contentforge.git",
-        "sha": "71b2866fa521e2c94da343572d2bac8d80b76462"
+        "sha": "a65c48e69b337f9c2fca34b5a165c10bff2a2315"
       },
       "homepage": "https://github.com/indranilbanerjee/contentforge",
       "keywords": ["contentforge", "content forge"]
