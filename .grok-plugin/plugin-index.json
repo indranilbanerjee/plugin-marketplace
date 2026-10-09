@@ -249,8 +249,8 @@
       }
     },
     "digital-marketing-pro": {
-      "sha": "33439246f2a10e6d2c6ffbb211ebd672fa064d4c",
-      "version": "3.33.3",
+      "sha": "0057a77a73a3d3e069567f42e4b6ca68d10afe6d",
+      "version": "3.34.0",
       "components": {
         "agents": [
           {
@@ -353,225 +353,225 @@
         "commands": [
           {
             "name": "doctor",
-            "description": "Per-action readiness diagnostic. Shows which campaign-audit and launch-campaign actions are live (manifest-ready) vs bl…"
+            "description": "Run the readiness doctor: which audit and launch actions are live or blocked. \\\"why is this action blocked\\\""
           },
           {
             "name": "engagement",
-            "description": "Run a marketing engagement using the 12-Part methodology. Subcommands: start, next, status, validate, re-run-decision,…"
+            "description": "Drive the 12-Part engagement by subcommand: start, next, status, validate, loop. \\\"advance to the next part\\\""
           },
           {
             "name": "execute-action",
-            "description": "Actually fire a campaign-audit / launch-campaign action against its real API (vs returning a manifest). Reads credentia…"
+            "description": "Execute an audit or launch action against its real API; writes need --confirm. \\\"actually fire this action\\\""
           },
           {
             "name": "output-folder",
-            "description": "Print + open the user-visible DMP output folder for a brand (~/Documents/DigitalMarketingPro/{brand}/). Direct answer t…"
+            "description": "Open the DMP output folder for a brand, where deliverables are saved. \\\"where did my deliverables save\\\""
           },
           {
             "name": "resume",
-            "description": "Resume a long-running DMP workflow (engagement / campaign-plan / content-engine / seo-audit / competitor-analysis / cam…"
+            "description": "Resume an interrupted DMP workflow from its checkpoint. \\\"pick up where we left off\\\""
           }
         ],
         "skills": [
           {
             "name": "ab-test-plan",
-            "description": "Design a statistically rigorous A/B or multivariate test plan — If/Then/Because hypothesis, control and variant specs,…"
+            "description": "Plan an A/B test by script: sample size per variant, days to run, stopping rules. \\\"how many visitors per variant\\\""
           },
           {
             "name": "ad-creative",
-            "description": "Generate 3-5 ad copy variations per platform — headlines, descriptions, and CTAs formatted to Google, Meta, LinkedIn, T…"
+            "description": "Write ad copy variants to each platform's specs, policy-checked and in brand voice. \\\"write ad copy for Meta\\\""
           },
           {
             "name": "add-integration",
-            "description": "Walk through adding a custom MCP server integration to the plugin — searches npm for an existing MCP package (or scaffo…"
+            "description": "Add a custom MCP integration: scaffold the server, write .mcp.json, test it. \\\"add a new MCP server\\\""
           },
           {
             "name": "aeo-audit",
-            "description": "Audit how a brand appears across the 6 canonical AI answer surfaces — ChatGPT, Perplexity, Google AI Mode, AI Overviews…"
+            "description": "Run a one-time AEO audit of six AI answer engines, scored per surface. \\\"check our AI search visibility\\\""
           },
           {
             "name": "aeo-geo",
-            "description": "Strategy module for Answer Engine / Generative Engine Optimization — audits AI visibility, restructures content for cit…"
+            "description": "Plan AEO/GEO strategy to get cited by AI: content, entities, schema, 90-day plan. \\\"how do we get cited by AI\\\""
           },
           {
             "name": "agency-dashboard",
-            "description": "Generate a portfolio-level dashboard across ALL client brands — per-client RAG health scores, campaign activity, budget…"
+            "description": "Build the agency dashboard across all client brands: health, pacing, risk. \\\"how are all our clients doing\\\""
           },
           {
             "name": "agent-readiness-audit",
-            "description": "Audit whether AI agents and AI crawlers can actually use a site — robots.txt rules per AI crawler token (OpenAI, Anthro…"
+            "description": "Audit agent readiness by script: AI-crawler rules, product schema, no-JS HTML, feeds. \\\"can AI agents use our site\\\""
           },
           {
             "name": "analytics-insights",
-            "description": "Marketing measurement module — builds KPI trees per business model, reporting templates (weekly, monthly, QBR, campaign…"
+            "description": "Design the analytics layer with script-backed benchmarks: KPI trees, report templates, MMM, cookieless. \\\"define our KP…"
           },
           {
             "name": "anomaly-scan",
-            "description": "Scan all connected marketing platforms for statistically significant deviations from stored baselines — traffic drops,…"
+            "description": "Scan connected platforms for anomalies against stored baselines, with likely causes. \\\"why did our CPA spike\\\""
           },
           {
             "name": "attribution-model",
-            "description": "Design a multi-touch attribution strategy — recommends the best-fit model for the business's sales cycle and data matur…"
+            "description": "Design an attribution model and credit rules. Real path data → attribution-report. \\\"set up multi-touch attribution\\\""
           },
           {
             "name": "attribution-report",
-            "description": "Run multi-touch attribution analysis on real conversion-path data — applies two or more models side-by-side (first-touc…"
+            "description": "Run attribution on real conversion paths, comparing models. \\\"which channels actually drive revenue\\\""
           },
           {
             "name": "audience-intelligence",
-            "description": "Audience research module — builds six-dimension buyer personas (demographic, psychographic, behavioral, need-state, inf…"
+            "description": "Research audiences: personas, JTBD maps, RFM segments. One persona doc → audience-profile. \\\"run a JTBD analysis\\\""
           },
           {
             "name": "audience-profile",
-            "description": "Build a named, narrative buyer persona document — demographic snapshot, psychographic drivers, jobs-to-be-done, day-in-…"
+            "description": "Profile 2-4 buyer personas as narrative documents: drivers, objections, journey. \\\"create a buyer persona\\\""
           },
           {
             "name": "autopilot-status",
-            "description": "Campaign autopilot operations dashboard — 0-100 health scores for all active campaigns, a chronological log of auto-cor…"
+            "description": "Show autopilot status: health, auto-corrections, guardrails, escalations. \\\"what did the autopilot change\\\""
           },
           {
             "name": "backlink-gap",
-            "description": "Find referring domains that link to your competitors but not to you, ranked by an outreach-priority score (0.40 DR + 0.…"
+            "description": "Find backlink gap domains linking to competitors, not you, scored by script. \\\"who links to our competitors but not us\\\""
           },
           {
             "name": "brand-setup",
-            "description": "Create or update the brand profile every other skill reads — a quick 5-question or full 17-question interactive setup c…"
+            "description": "Set up or update the brand profile every skill reads: voice, audience, compliance. \\\"set up a new brand\\\""
           },
           {
             "name": "budget-optimizer",
-            "description": "Reallocate marketing spend across channels using performance data and diminishing-returns modeling — produces a current…"
+            "description": "Optimize channel budget with diminishing-returns models. Pacing → budget-tracker. \\\"is our channel split right\\\""
           },
           {
             "name": "budget-tracker",
-            "description": "Track advertising spend pacing in real time across connected ad platforms (Google Ads, Meta, LinkedIn, TikTok) — produc…"
+            "description": "Project ad budget pacing by script from live accounts or given numbers: month-end overspend. \\\"are we overspending this…"
           },
           {
             "name": "c2pa-metadata",
-            "description": "Embed a C2PA provenance manifest into an AI-generated marketing asset (PNG, JPG, WebP, GIF, TIFF, MP4, MOV, WebM, MP3,…"
+            "description": "Embed C2PA provenance in AI-generated images, video or PDF by script. \\\"add content credentials to this asset\\\""
           },
           {
             "name": "campaign-audit",
-            "description": "Inventory and score everything currently running for a brand across paid search, paid social, email, organic, SEO, AEO/…"
+            "description": "Audit all campaigns running for a brand across channels, with 4-tier triage. \\\"we just inherited this account\\\""
           },
           {
             "name": "campaign-orchestrator",
-            "description": "Full campaign-lifecycle module — produces campaign briefs, budget allocations via three models (70/20/10, efficiency-ra…"
+            "description": "Orchestrate a campaign lifecycle: briefs, budget models, UTMs, post-mortems. \\\"set up UTM naming conventions\\\""
           },
           {
             "name": "campaign-plan",
-            "description": "Generate a complete multi-channel campaign plan document — SMART objectives, audience segments with targeting criteria,…"
+            "description": "Write a multi-channel campaign plan: objectives, channel mix, budget, timeline, KPIs. \\\"build the Q3 campaign plan\\\""
           },
           {
             "name": "campaign-status",
-            "description": "Unified status dashboard for every tracked campaign across connected platforms — produces a summary table with health i…"
+            "description": "Show status of every tracked campaign: health, spend, executions, pending approvals. \\\"what campaigns are running right…"
           },
           {
             "name": "case-study-plan",
-            "description": "Build a complete case-study creation blueprint — a Challenge-Solution-Results narrative framework, 15-20 client intervi…"
+            "description": "Plan a case study: narrative, interview questions, formats. \\\"turn this client win into a case study\\\""
           },
           {
             "name": "check",
-            "description": "Run the unified pre-publish quality gate on marketing content — wraps scripts/eval-runner.py to score hallucination ris…"
+            "description": "Run the scored pre-publish gate via eval-runner.py: claims, brand voice, compliance, AI tells. \\\"check this before we p…"
           },
           {
             "name": "churn-risk",
-            "description": "Score customer segments for churn risk from behavioral signals — email engagement decline, purchase recency, usage drop…"
+            "description": "Score churn risk per segment by script, with tiered retention playbooks. \\\"which customers are about to churn\\\""
           },
           {
             "name": "client-onboarding",
-            "description": "Generate a complete onboarding package for a new marketing client — kickoff meeting agenda, 20-30 question discovery qu…"
+            "description": "Build a client onboarding pack: kickoff agenda, discovery questions, 30-60-90. \\\"we just signed a new client\\\""
           },
           {
             "name": "client-proposal",
-            "description": "Draft a professional agency proposal or pitch document for a prospective client — executive summary, situation analysis…"
+            "description": "Draft a client proposal or RFP response: scope, deliverables, KPIs, pricing tiers. \\\"respond to this RFP\\\""
           },
           {
             "name": "client-report",
-            "description": "Generate a white-labeled client report in agency voice — weekly pulse, monthly review, or QBR — with a KPI scorecard vs…"
+            "description": "Write a white-labeled report for one client from tracked data. All clients → agency-dashboard. \\\"prepare the monthly cl…"
           },
           {
             "name": "client-validation-document",
-            "description": "Produce the Part 5 Client Validation Document — the one true stop of the 12-Part engagement where unbiased v1 findings…"
+            "description": "Produce the Part 5 client validation document: evidence-cited findings for client decisions. \\\"prepare v1 findings for…"
           },
           {
             "name": "cohort-analysis",
-            "description": "Segment customers into cohorts — by acquisition period, channel, first behavior, or revenue tier — and produce a color-…"
+            "description": "Run cohort analysis: retention matrix and LTV by cohort. Churn scoring → churn-risk. \\\"build a retention matrix\\\""
           },
           {
             "name": "competitor-alerts",
-            "description": "Configure a tiered competitor alert system — per-competitor trigger thresholds across content, pricing, ads, social, ra…"
+            "description": "Configure competitor alerts: change thresholds per competitor, urgency routing, digests. \\\"set up competitor alerts\\\""
           },
           {
             "name": "competitor-analysis",
-            "description": "Run a multi-dimensional competitive teardown of 2-5 competitors — content strategy, SEO, paid ads, social, AI answer-en…"
+            "description": "Analyze 2-5 competitors once: positioning, content, SEO, ads, pricing. Ongoing → competitor-monitor. \\\"how do we stack…"
           },
           {
             "name": "competitor-monitor",
-            "description": "Set up ongoing competitor monitoring — captures per-competitor baselines across content, pricing, ads, social, SEO, and…"
+            "description": "Monitor competitors over time: baseline sites, pricing and ads by script, flag changes. \\\"track our competitors over ti…"
           },
           {
             "name": "competitor-pages",
-            "description": "Build competitor comparison and alternatives pages — X-vs-Y head-to-heads, alternatives-to-X lists, category roundups,…"
+            "description": "Build competitor comparison pages: X-vs-Y, alternatives and roundups, with schema. \\\"create a vs page\\\""
           },
           {
             "name": "connect",
-            "description": "Guide the connection of a known MCP integration to the plugin — looks up the connector registry via connector-status.py…"
+            "description": "Connect a known MCP integration: check the registry and status, return exact setup steps. \\\"connect Google Ads\\\""
           },
           {
             "name": "content-brief",
-            "description": "Create a production-ready content brief a writer can execute without extra context — keyword map (primary, secondary, r…"
+            "description": "Write an executable content brief: keyword map, outline, intent, SEO checklist. \\\"write a brief for this topic\\\""
           },
           {
             "name": "content-calendar",
-            "description": "Generate a structured content calendar for a month, quarter, or custom range — topics mapped to platforms and publish d…"
+            "description": "Build a content calendar: topics by platform and date, pillar and funnel tags. \\\"plan next month's content\\\""
           },
           {
             "name": "content-decay-scan",
-            "description": "Scan the content library for decay — declining traffic, falling keyword positions, stale content, broken links, lost AI…"
+            "description": "Scan content for decay by script and rank refreshes by recoverable traffic. \\\"which content is losing traffic\\\""
           },
           {
             "name": "content-engine",
-            "description": "Draft marketing content in brand voice — blog posts, ad copy, email sequences, social posts, landing pages, and brand-v…"
+            "description": "Draft content in brand voice through a gated pipeline: blogs, ads, emails. Brief only → content-brief. \\\"write a blog p…"
           },
           {
             "name": "content-repurpose",
-            "description": "Turn one piece of content into a multi-channel repurposing plan — a derivative matrix targeting 10+ formats, full platf…"
+            "description": "Repurpose one content piece into 10+ channel formats with drafts and a calendar. \\\"repurpose this blog post\\\""
           },
           {
             "name": "context-engine",
-            "description": "Load and manage the shared marketing context other skills build on — the active brand profile (voice, audiences, compet…"
+            "description": "Load shared marketing context: brand profile, benchmarks, compliance rules, specs. \\\"load my brand context\\\""
           },
           {
             "name": "continuous-improvement-loop",
-            "description": "Run Part 12 of the engagement methodology — the continuous improvement loop that aggregates quarterly-review, customer-…"
+            "description": "Run the Part 12 continuous improvement loop into a quarterly brief for leadership. \\\"produce the quarterly improvement…"
           },
           {
             "name": "counter-narrative",
-            "description": "Build a counter-narrative playbook responding to a competitor's positioning move — rebrand, category claim, aggressive…"
+            "description": "Build a counter-narrative playbook for a competitor's rebrand, category claim or attack. \\\"respond to their attack camp…"
           },
           {
             "name": "cowork-setup",
-            "description": "One-shot setup that wires Digital Marketing Pro for team use in Anthropic Cowork — verifies the sandbox via plugin-meta…"
+            "description": "Set up DMP for team use in Cowork: sandbox check, Drive folders, saved routing. \\\"set up DMP for my team in Cowork\\\""
           },
           {
             "name": "creative-health",
-            "description": "Assess ad creative fatigue across active campaigns — scores each creative 0-100 via creative-fatigue-predictor.py (CTR,…"
+            "description": "Score ad creative fatigue against baseline, predict days left, brief refreshes. \\\"are our ads fatiguing\\\""
           },
           {
             "name": "creative-testing-framework",
-            "description": "Design a structured ad creative testing playbook — prioritized variable matrix, isolated test grid, script-computed sam…"
+            "description": "Plan a creative testing roadmap with script-computed sample sizes. Fatigue → creative-health. \\\"build a creative testin…"
           },
           {
             "name": "credential-switch",
-            "description": "Switch the active credential profile to a different client brand, validating each configured platform's API keys, env v…"
+            "description": "Switch the active credential profile to another client, validating keys first, approval-gated. \\\"activate Acme's API ke…"
           },
           {
             "name": "crisis-response",
-            "description": "Assess a PR crisis and deliver a structured response plan — severity classification (Level 1-3), a ready-to-publish hol…"
+            "description": "Respond to a breaking PR crisis: severity, holding statement, stakeholder messages, timeline. \\\"draft a holding stateme…"
           },
           {
             "name": "crm-sync",
-            "description": "Sync marketing data to and from Salesforce, HubSpot, Zoho, or Pipedrive — contacts, deals, and campaign links with fiel…"
+            "description": "Sync contacts and deals with a connected CRM, deduped, approval-gated. \\\"sync deals to Salesforce\\\""
           }
         ]
       }
