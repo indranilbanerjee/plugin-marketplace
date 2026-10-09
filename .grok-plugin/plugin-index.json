@@ -249,8 +249,8 @@
       }
     },
     "digital-marketing-pro": {
-      "sha": "0057a77a73a3d3e069567f42e4b6ca68d10afe6d",
-      "version": "3.34.0",
+      "sha": "f06d2db3aad70893d958bd2d9a4a7ae20368c632",
+      "version": "3.35.1",
       "components": {
         "agents": [
           {
@@ -361,7 +361,7 @@
           },
           {
             "name": "execute-action",
-            "description": "Execute an audit or launch action against its real API; writes need --confirm. \\\"actually fire this action\\\""
+            "description": "Execute an audit or launch action against its real API; writes need an approval record. \\\"actually fire this action\\\""
           },
           {
             "name": "output-folder",
