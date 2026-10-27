@@ -481,7 +481,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/indranilbanerjee/socialforge.git",
-        "sha": "51059a23303815f95f1795088b0f5ba232bc218f"
+        "sha": "7a74c22885d096f4aa4ef87df7d190091b526c6d"
       },
       "homepage": "https://github.com/indranilbanerjee/socialforge",
       "keywords": ["socialforge", "social forge"]
