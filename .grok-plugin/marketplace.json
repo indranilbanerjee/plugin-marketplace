@@ -481,7 +481,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/indranilbanerjee/contentforge.git",
-        "sha": "3ff78f5e15fc3cdb8714def4ce2fa40f88aebe6c"
+        "sha": "bf7b909f6544588ec6240f151c1324533d8c2efd"
       },
       "homepage": "https://github.com/indranilbanerjee/contentforge",
       "keywords": ["contentforge", "content forge"]

@@ -321,8 +321,8 @@
       }
     },
     "contentforge": {
-      "sha": "3ff78f5e15fc3cdb8714def4ce2fa40f88aebe6c",
-      "version": "4.5.9",
+      "sha": "bf7b909f6544588ec6240f151c1324533d8c2efd",
+      "version": "4.5.11",
       "components": {
         "agents": [
           {
